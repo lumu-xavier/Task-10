@@ -20,5 +20,6 @@ public class UserManager {
         System.out.println("\n=== USER INFORMATION ===");
         System.out.println("Name: " + userName);
         System.out.println("Age: " + UserAge);
+        System.out.println("Email: "+ UserEmail);
     }
 }
