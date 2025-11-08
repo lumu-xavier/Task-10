@@ -1,0 +1,3 @@
+module trialModule {
+    exports  trialPackage;
+}
