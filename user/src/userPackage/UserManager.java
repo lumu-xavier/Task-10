@@ -1,16 +1,13 @@
 package userPackage;
-import java.util.Scanner;
+
 
 public class UserManager {
     private String userName;
     private int UserAge;
 
-    public void inputUserData(){
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        userName = input.nextLine();
-        System.out.print("Enter your age: ");
-        UserAge = input.nextInt();
+    public UserManager(int userAge, String userName) {
+        UserAge = userAge;
+        this.userName = userName;
     }
 
     public void displayUserData(){
