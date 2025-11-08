@@ -5,6 +5,14 @@ public class UserManager {
     private String userName;
     private int UserAge;
 
+    public int getUserAge() {
+        return UserAge;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
     public void inputUserData(){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your name: ");
