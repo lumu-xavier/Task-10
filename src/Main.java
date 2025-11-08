@@ -12,5 +12,9 @@ public class Main {
 
         userManager.displayUserData();
         itemManager.displayItemData();
+
+        userManager.getUserAge();
+        userManager.getUserName();
+
     }
 }
